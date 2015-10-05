@@ -12,7 +12,7 @@ The inception meeting sets the tone for your relationship with the client for th
 
 The inception  meeting should include an expansive process, where you work together to discover their needs, and identify many things that _could_ be built. This should be followed by a contractive process, in which you work together to whittle down the ideas you've come up with into a set of features that can actually be completed. This initial release can be thought of as a _minimal viable product_ (MVP).
 
-Ideally, you should come out this meeting with the full scope of the project expressed in Sprint.ly or the client's tracking software as high level user stories. The client and QL should also be in agreement about the features that we are expecting to complete during the engagement.
+Ideally, you should come out this meeting with the full scope of the project expressed in the backlog as high level user stories. The client and QL should also be in agreement about the features that we are expecting to complete during the engagement.
 
 User stories should be estimated and prioritized to allow you and the client to agree on timelines and milestones.
 
@@ -22,7 +22,7 @@ Set a tone of open and detailed communication from day one. Let the client know 
 
 We are a time-and-materials based shop. We do not do fixed bids or not-to-exceed clauses. Ensure that the client understands that we are not promising an exact set of features by a certain date or for a certain cost. As our understanding of the project evolves, features may be cut, and budget or timelines may be extended. Prepare the client for the possibility of disappointment in these cases.
 
-If a client has not participated in agile software development before, explain the purpose of each component (sprint.ly, standups, retros, pairing, story acceptance). Explain the difference between a feature, a task, and a defect.  This conversation may also be valuable if their version of _agile_ is different than ours.
+If a client has not participated in agile software development before, explain the purpose of each component (project management software, standups, retros, pairing, story acceptance). Explain the difference between a feature, a task, and a defect.  This conversation may also be valuable if their version of _agile_ is different than ours.
 
 ## DAILY
 
@@ -56,11 +56,11 @@ Make sure you keep your project's documentation up-to-date. Include steps for se
 
 ### Client Meeting / Retrospective
 
-Each week, you should do a client retrospective meeting. This is the time to show off what we've been working on, plan for the future, manage scope expectations and reinforce a positive and communicative tone in the working relationship..
+Each week, you should do a client retrospective meeting. This is the time to show off what we've been working on, plan for the future, manage scope expectations and reinforce a positive and communicative tone in the working relationship.
 
-If necessary, reiterate that we are working on time and cost estimates based on the features currently agreed upon and that unknowns can always cause timelines and budgets to increase.
+If necessary, reiterate that we are working on time and cost estimates based on the features currently agreed upon and that unknowns can cause timelines and budgets to increase.
 
-Early in the project, you are likely to have to disappoint the client, if you have discovered that the cost of certain features has been under-estimated. The goal of our agile process is to give a realistic picture of the work and find creative solutions to scope and budget issues we discover during the course of the project. We don't promise what we can't deliver.
+Early in the project, you are likely to have to disappoint the client if you have discovered that the cost of certain features has been under-estimated. The goal of our agile process is to give a realistic picture of the work and find creative solutions to scope and budget issues we discover during the course of the project. We don't promise what we can't deliver.
 
 Hold the client and the Quick Left team to their meeting attendance, story acceptance, asset provision and communication commitments.
 
@@ -68,7 +68,7 @@ If the client is new to agile, re-explain the meaning and purpose of each compon
 
 Identify any tech / process / personnel issues that the client is having, if any. This is a good time to provide value to the client by giving them an outside perspective into their own process.
 
-If things go really wrong, consider conducting a "5 Whys" retro with the client and our team.
+It's more important to listen and understand when working with a client than it is to educate. This is their business, we're here to listen, advise and implement. Keep client meetings on track, but not at the expense of client happiness. If things go really wrong, consider conducting a "5 Whys" retro with the client and our team.
 
 ### Demo & Acceptance
 
@@ -78,7 +78,7 @@ The most recently completed stories should be merged into the main Git branch an
 
 Show the business value that was delivered in the sprint and the commitments that were hit by walking through the features in real time.
 
-Ask client to accept each story after it is demoed. When they do, they are agreeing that you've built what you said you would and that it works. If the feature that satisfies the story isn't what the client anticipated, either move the story back into the backlog or add a new story that better explains expectations. Agile gets things right through iteration, if something isn't right...iterate!
+Ask client to accept each story after it is demoed. When they do, they are agreeing that you've built what you said you would and that it works. If the feature that satisfies the story isn't what the client anticipated, either move the story back into the backlog or add a new story that better explains expectations. Client acceptance can happen before a formal QA process. If QA finds a bug after the client as accepted the story, it should be filed and addressed as soon as possible. Agile gets things right through iteration. If something isn't right...iterate!
 
 ### Sprint Planning
 
@@ -121,7 +121,7 @@ Schedule the handoff meeting if it's not already on the calendar.
 
 When the project is complete, you should have a handoff meeting with the client to transfer ownership of the code to the client.
 
-Celebrate what you've built together and demonstrate the business value of the project. Reiterate the business goals we set out to accomplish, reflect on the journey you took together to get to this point.
+Celebrate what you've built together and demonstrate the business value of the project. Reiterate the business goals we set out to accomplish and reflect on the journey you took together to get to this point.
 
 Come prepared with access keys, login credentials, server addresses and anything else that the client will need to manage their application. Have someone with access transfer ownership of the GitHub repository to the client before the end of the meeting.
 
